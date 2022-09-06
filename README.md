@@ -7,7 +7,7 @@ version: "3"
 
 services:
   db:
-    image: guaifish/mysql_crash_course:0.1
+    image: guaifish/mysql_crash_course
     container_name: mysql_crash_course
     # restart: always
     ports:
